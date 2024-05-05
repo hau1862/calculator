@@ -1,0 +1,32 @@
+body {
+	margin: 0px;
+}
+
+body * {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+table {
+	border: 1px solid black;
+	border-spacing: 16px;
+	border-radius: 12px;
+	padding: 8px;
+}
+
+td {
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 12px 0px;
+	width: 52px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+}
